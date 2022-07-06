@@ -84,3 +84,13 @@ h7{
   background-color: #fff;
   color: #f0d259;
 }
+
+.btn-black{
+  background-color: #000;
+  border: 2px solid #000;
+}
+
+.btn-black:hover{
+  background-color: transparent;
+  color: #000;
+}

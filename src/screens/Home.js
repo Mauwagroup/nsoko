@@ -6,7 +6,9 @@ function Home() {
         <div>
             <div style={{ height: 140, padding: "20px 5px" }} className="App">
                 {/* Navbar */}
-                <img className="navbar-icon"  src={IMAGES.Logo1} alt="Logo" />
+                <a href="/">
+                    <img className="navbar-icon" src={IMAGES.Logo1} alt="Logo" />
+                </a>
 
             </div>
             <div id="intro-1" className="row App">
@@ -74,13 +76,47 @@ function Home() {
                             Finalisation
                         </h4>
                         <h7>
-                        Dès que nous aurons terminé la boutique, nous vous l'enverrons pour examen, et si vous en êtes 
-                        satisfait, votre boutique est prête pour ses premières ventes !
+                            Dès que nous aurons terminé la boutique, nous vous l'enverrons pour examen, et si vous en êtes
+                            satisfait, votre boutique est prête pour ses premières ventes !
                         </h7>
                     </div>
-                </div><br/>
+                </div><br />
                 <a className="btn" href="#" >Obtenez votre magasin gagnant</a>
             </div>
+            <br />
+            <div id="ad" className="row App">
+                <div className="col-md-6">
+                    <img className="img" style={{ marginTop: -80 }} src={IMAGES.Img6} alt="Delivery Img" />
+                </div>
+                <div className="col-md-6">
+                    <h1>
+                        Produits &<br /> Fournisseurs <span className="txt-yellow">gagnants</span>
+                    </h1>
+                    <h3>
+                        Tous les produits sont déjà testés par des experts et ils se vendent bien. Vous obtiendrez
+                        également un lien vers un fournisseur avec le délai de livraison le plus rapide.
+                    </h3>
+                    <a className="btn" href="#" >Obtenez votre magasin gagnant</a>
+                </div>
+            </div>
+
+            <div className="bg-yellow" id="Video_ad" style={{ padding: "80px 0px 40px", marginTop: -60 }}>
+                <div className="row App">
+                    <div className="col-md-6">
+                        <h1 className="txt-white">
+                            Vidéo publicitaire et contenu pour les réseaux sociaux.
+                        </h1>
+                        <h3 className="txt-white" style={{ fontWeight: 500 }}>
+                            Vous obtiendrez des publicités vidéo à <br />forte conversion et un contenu accrocheur pour vos futurs abonnés.
+                        </h3>
+                        <a className="btn btn-black" href="#" >Obtenez votre magasin gagnant</a>
+                    </div>
+                    <div className="col-md-6">
+                        <img className="img" style={{ marginTop: -80 }} src={IMAGES.Img7} alt="Delivery Img" />
+                    </div>
+                </div>
+            </div>
+
         </div>
     );
 }
